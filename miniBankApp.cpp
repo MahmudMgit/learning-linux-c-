@@ -70,7 +70,7 @@ double withdraw(double balance){
     std::cin >> amount;
 
     if(amount > balance){
-        std::cout << "You are broke\n";
+        std::cout << "You do not have enough\n";
         return 0;
     } else if (amount <= 0) {
         std::cout << "Please enter a number above 0 to withdraw\n";
